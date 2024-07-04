@@ -26,7 +26,7 @@ export function Tasks() {
   return (
     <div className="flex min-h-screen w-full flex-col items-center gap-5 bg-slate-900 py-10">
       <h1 className="text-2xl font-bold text-white">Minhas Tarefas</h1>
-      <div className="flex w-full max-w-[90%] gap-4">
+      <div className="flex w-full max-w-[90%] gap-4 lg:max-w-[500px]">
         <input
           type="text"
           placeholder="Digite o nome da tarefa"
@@ -42,7 +42,7 @@ export function Tasks() {
         </button>
       </div>
 
-      <div className="flex w-full max-w-[90%] flex-col gap-5">
+      <div className="flex w-full max-w-[90%] flex-col gap-5 lg:max-w-[500px]">
         {tasks.map((task) => (
           <div
             key={task.id}
