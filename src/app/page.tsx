@@ -1,3 +1,9 @@
+import { Tasks } from '@/components/tasks'
+
 export default function Home() {
-  return <main>Hello Word!</main>
+  return (
+    <main>
+      <Tasks />
+    </main>
+  )
 }
