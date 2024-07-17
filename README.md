@@ -1,4 +1,4 @@
-Este projeto é uma lista de tarefa desenvolvida usando a metodologia TDD (Desenvolvimento Orientado por Testes).
+Este projeto é uma lista de tarefas desenvolvida usando a abordagem de TDD (Desenvolvimento Orientado por Testes).
 
 ## Tecnologias Utilizadas
 * Next.js
