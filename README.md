@@ -1,53 +1,43 @@
-Este projeto é uma lista de tarefas desenvolvida usando a abordagem de TDD (Desenvolvimento Orientado por Testes).
+# Next Jest
+
+Este projeto é uma aplicação de estudo, lista de tarefas desenvolvida usando a abordagem de TDD (Desenvolvimento Orientado por Testes).
 
 ## Tecnologias Utilizadas
+
 * Next.js
 * TypeScript
 * Tailwind CSS
 * Jest
-* Test Library
-* Github Actions
+* Testing Library
+* GitHub Actions
 
-## Instalação
+## Passos para Instalação
 
-Siga os passos abaixo para configurar o ambiente de desenvolvimento local
-
-### Clone o repositório
-
-```sh
-git clone https://github.com/felipems1/next-jest.git
-```
-### Navegue até o diretório do projeto
-```sh
-cd next-jest
-```
-### Instale as dependências
-```sh
-npm install
-```
-
-### Inicie o servidor de desenvolvimento
-```sh
-npm run dev
-```
-
-O aplicativo estará disponível em <strong>http://localhost:3000</strong>
+1. Clone o repositório: `git clone <URL_DO_REPOSITORIO>`
+2. Navegue até o diretório do repositório: `cd <nome_do_diretorio>`
+3. Instale as dependências: `npm install`
 
 ## Como Usar
 
-Depois de seguir os passos de instalação, você pode começar a desenvolver e personalizar o projeto conforme suas necessidades. Aqui estão alguns scripts úteis
+Execute `npm run dev` e o projeto estará disponível em `http://localhost:3000`.
 
-* <strong>npm run dev</strong>: Inicia o servidor de desenvolvimento.
+## Funcionalidades Principais
 
-* <strong>npm run test</strong>: Roda os testes da aplicação
+* Criar tarefa
+* Listar todas as tarefas
+* Excluir tarefa
+* Editar tarefa
 
-* <strong>npm run build</strong>: Compila o projeto para produção.
+## Testes Automatizados
 
-* <strong>npm start</strong>: Inicia o servidor de produção.
-
-* <strong>npm run lint</strong>: Verifica o código em busca de problemas de lint.
+Execute `npm run test` para rodar os testes da aplicação.
 
 ## Licença
-Este projeto está licenciado sob a <strong>Licença MIT</strong>.
+
+MIT
+
+## Contato
+
+[Meu LinkedIn](https://www.linkedin.com/in/felipems1/)
 
 
